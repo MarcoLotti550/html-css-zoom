@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+/* tipologia vista partecipanti */
+header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 10%;
+}
+.mod-vista{
+    color: #fff;
+    height: 25px;
+    padding: 0 5px;
+    background-color: gray;
+    line-height: 25px;
+    vertical-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* partecipanti */
+.partecipanti{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+.utente{
+    display: flex;
+    width: 246px;
+    height: 146px;
+    background-image: url(https://picsum.photos/246/146);
+    color: #fff;
+    align-items: flex-end;
+    margin: 8px 3px;
+}
+.utente span{
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    background-color: rgba(128, 128, 128, 0.527);
+    vertical-align: middle;
+}
