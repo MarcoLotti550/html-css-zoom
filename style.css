@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: Lato;
 }
 body{
     background-color: #000;
@@ -29,17 +31,18 @@ header{
 .partecipanti{
     display: flex;
     flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
+    width: 93%;
+    justify-content: space-around;
+    margin: 27px auto;
 }
 .utente{
     display: flex;
+    align-items: flex-end;
     width: 246px;
     height: 146px;
     background-image: url(https://picsum.photos/246/146);
     color: #fff;
-    align-items: flex-end;
-    margin: 8px 3px;
+    margin: 6px 0;
 }
 .utente span{
     height: 25px;
@@ -48,3 +51,54 @@ header{
     background-color: rgba(128, 128, 128, 0.527);
     vertical-align: middle;
 }
+/* impostazioni chiamata */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 71px;
+    background-color: rgb(43, 43, 43);
+}
+.sx{
+    display: flex;
+    color: #fff;
+}
+/*  */
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.column i{
+    font-size: 25px;
+}
+.more-options{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 10px;
+
+}
+.icone{
+    margin-right: 5px;
+}
+/* icone al centro */
+.center{
+    display: flex;
+    color: #fff;
+}
+/* icona attiva */
+.attivo i{
+    color: green;
+}
+/* termina chiamata */
+.dx{
+    display: flex;
+    color: red;
+    background-color: rgb(68, 68, 68);
+    padding: 0 15px;
+    align-items: center;
+}
+    
